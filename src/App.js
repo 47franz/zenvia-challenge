@@ -49,7 +49,6 @@ class List extends React.Component {
             </Row>
           </Col>
           <CardColumns>
-            {console.log(this.state.characters[0])}
             {this.state.characters.map((item) => (
               <Card key={item.char_id.toString()}>
                 <Card.Img
